@@ -1,0 +1,204 @@
+{
+  "app": {
+    "name": "AEGIS",
+    "tagline": "پلتفرم دفاع سایبری و هوش شبکه"
+  },
+  "nav": {
+    "dashboard": "داشبورد",
+    "networkMap": "نقشه شبکه",
+    "devices": "دستگاه‌ها",
+    "timeline": "جدول زمانی امنیتی",
+    "flows": "کاوشگر Flow",
+    "logs": "مرکز هوشمند لاگ",
+    "incidents": "مدیریت Incident",
+    "rules": "استودیوی قوانین",
+    "fim": "یکپارچگی فایل",
+    "aiAnalyst": "تحلیل‌گر هوش مصنوعی",
+    "vault": "صندوق امن",
+    "settings": "تنظیمات"
+  },
+  "common": {
+    "search": "جستجو",
+    "refresh": "بروزرسانی",
+    "save": "ذخیره",
+    "cancel": "انصراف",
+    "delete": "حذف",
+    "add": "افزودن",
+    "create": "ایجاد",
+    "close": "بستن",
+    "loading": "در حال بارگذاری…",
+    "noData": "داده‌ای موجود نیست",
+    "enabled": "فعال",
+    "disabled": "غیرفعال",
+    "online": "آنلاین",
+    "offline": "آفلاین",
+    "actions": "عملیات",
+    "status": "وضعیت",
+    "severity": "شدت",
+    "description": "توضیحات",
+    "timestamp": "زمان",
+    "source": "منبع",
+    "category": "دسته‌بندی",
+    "confirm": "تأیید",
+    "unlock": "باز کردن قفل",
+    "lock": "قفل کردن"
+  },
+  "severity": {
+    "info": "اطلاعاتی",
+    "low": "کم",
+    "medium": "متوسط",
+    "high": "بالا",
+    "critical": "بحرانی"
+  },
+  "dashboard": {
+    "title": "داشبورد عملیات امنیتی",
+    "riskScore": "امتیاز ریسک شبکه",
+    "activeAlerts": "هشدارهای فعال",
+    "networkHealth": "سلامت شبکه",
+    "suspiciousEvents": "رویدادهای مشکوک (۲۴ ساعت)",
+    "topConnections": "برترین اتصالات",
+    "trafficVolume": "حجم ترافیک",
+    "deviceHealth": "سلامت دستگاه‌ها",
+    "recentIncidents": "Incidentهای اخیر",
+    "aiInsight": "بینش تحلیل‌گر هوش مصنوعی",
+    "cpuUsage": "مصرف پردازنده",
+    "ramUsage": "مصرف حافظه",
+    "networkThroughput": "توان عملیاتی شبکه",
+    "devicesOnline": "دستگاه‌های آنلاین"
+  },
+  "map": {
+    "title": "نقشه تعاملی شبکه",
+    "scanNetwork": "اسکن شبکه",
+    "scanning": "در حال اسکن شبکه شما…",
+    "legend": "راهنما",
+    "router": "روتر",
+    "computer": "کامپیوتر",
+    "server": "سرور",
+    "mobile": "موبایل",
+    "iot": "دستگاه IoT",
+    "printer": "پرینتر",
+    "unknown": "نامشخص"
+  },
+  "devices": {
+    "title": "دستگاه‌ها",
+    "ip": "آدرس IP",
+    "mac": "آدرس MAC",
+    "hostname": "نام میزبان",
+    "vendor": "سازنده",
+    "type": "نوع",
+    "riskScore": "امتیاز ریسک",
+    "openPorts": "پورت‌های باز",
+    "lastSeen": "آخرین مشاهده",
+    "scanPorts": "اسکن پورت‌ها",
+    "deepScan": "اسکن عمیق (۱ تا ۱۰۲۴)",
+    "quickScan": "اسکن سریع (پورت‌های رایج)",
+    "gateway": "دروازه"
+  },
+  "timeline": {
+    "title": "جدول زمانی امنیتی",
+    "filterCategory": "فیلتر بر اساس دسته",
+    "allCategories": "همه دسته‌ها",
+    "search": "جستجوی رویدادها…",
+    "correlate": "همبستگی",
+    "correlationTitle": "فعالیت مرتبط"
+  },
+  "flows": {
+    "title": "کاوشگر بسته / Flow",
+    "protocol": "پروتکل",
+    "srcIp": "IP مبدأ",
+    "srcPort": "پورت مبدأ",
+    "dstIp": "IP مقصد",
+    "dstPort": "پورت مقصد",
+    "service": "سرویس",
+    "bytes": "بایت",
+    "packets": "بسته",
+    "duration": "مدت زمان",
+    "refreshFlows": "نمونه‌برداری اتصالات فعال"
+  },
+  "logs": {
+    "title": "مرکز هوشمند لاگ",
+    "queryPlaceholder": "جستجو در لاگ‌ها — متن ساده و عبارات شبیه Regex",
+    "savedSearches": "جستجوهای ذخیره‌شده",
+    "fieldFilters": "فیلتر فیلدها"
+  },
+  "incidents": {
+    "title": "فضای کاری پاسخ به Incident",
+    "newIncident": "ایجاد Incident",
+    "status": {
+      "open": "باز",
+      "investigating": "در حال بررسی",
+      "contained": "مهار شده",
+      "resolved": "حل شده",
+      "closed": "بسته شده"
+    },
+    "addNote": "افزودن یادداشت",
+    "notePlaceholder": "یادداشت بررسی را وارد کنید…",
+    "linkedAlerts": "هشدارهای مرتبط",
+    "createFromAlert": "تبدیل به Incident"
+  },
+  "rules": {
+    "title": "استودیوی قوانین",
+    "newRule": "قانون جدید",
+    "ruleName": "نام قانون",
+    "conditionType": "نوع شرط",
+    "threshold": "آستانه",
+    "windowSeconds": "بازه زمانی (ثانیه)",
+    "conditions": {
+      "port_scan": "اسکن پورت",
+      "conn_spike": "افزایش ناگهانی اتصال",
+      "dns_anomaly": "ناهنجاری DNS",
+      "auth_failure": "شکست احراز هویت",
+      "custom": "سفارشی"
+    }
+  },
+  "fim": {
+    "title": "نظارت بر یکپارچگی فایل",
+    "addFile": "پایش یک فایل",
+    "pathPlaceholder": "/path/to/important/file",
+    "lastHash": "آخرین Hash",
+    "lastChecked": "آخرین بررسی",
+    "runScan": "اجرای اسکن یکپارچگی",
+    "changesFound": "تغییر شناسایی شد"
+  },
+  "ai": {
+    "title": "تحلیل‌گر امنیتی هوش مصنوعی",
+    "subtitle": "کاملاً Tool-Based و Local. فقط داده‌های مجاز شما را می‌خواند — هرگز خودش اقدامی انجام نمی‌دهد.",
+    "explainAlert": "توضیح این هشدار",
+    "probableCause": "علت احتمالی",
+    "recommendations": "پیشنهادهای بعدی",
+    "confidence": "میزان اطمینان",
+    "postureSummary": "وضعیت فعلی"
+  },
+  "vault": {
+    "title": "صندوق امن",
+    "setupPrompt": "برای رمزنگاری Secretهای ذخیره‌شده محلی، یک رمز عبور اصلی تنظیم کنید.",
+    "unlockPrompt": "برای باز کردن قفل صندوق، رمز عبور اصلی را وارد کنید.",
+    "passphrase": "رمز عبور اصلی",
+    "keyName": "نام کلید",
+    "value": "مقدار",
+    "locked": "صندوق قفل است",
+    "unlocked": "صندوق باز شد"
+  },
+  "settings": {
+    "title": "تنظیمات",
+    "appearance": "ظاهر",
+    "theme": "تم",
+    "themes": {
+      "dark": "تیره پریمیوم",
+      "light": "روشن",
+      "windows": "پیش‌فرض ویندوز ۱۱",
+      "red": "قرمز",
+      "blue": "آبی",
+      "amoled": "AMOLED"
+    },
+    "language": "زبان",
+    "shortcuts": "کلیدهای میانبر",
+    "notifications": "مرکز اعلان‌ها",
+    "backup": "پشتیبان‌گیری از تنظیمات",
+    "exportBackup": "خروجی گرفتن از پشتیبان",
+    "importBackup": "وارد کردن پشتیبان"
+  },
+  "commandPalette": {
+    "placeholder": "یک دستور تایپ کنید یا جستجو کنید…"
+  }
+}

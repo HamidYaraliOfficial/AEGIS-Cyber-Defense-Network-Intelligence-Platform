@@ -1,0 +1,204 @@
+{
+  "app": {
+    "name": "AEGIS",
+    "tagline": "Cyber Defense & Network Intelligence Platform"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "networkMap": "Network Map",
+    "devices": "Devices",
+    "timeline": "Security Timeline",
+    "flows": "Flow Explorer",
+    "logs": "Log Intelligence",
+    "incidents": "Incident Response",
+    "rules": "Rules Studio",
+    "fim": "File Integrity",
+    "aiAnalyst": "AI Analyst",
+    "vault": "Secure Vault",
+    "settings": "Settings"
+  },
+  "common": {
+    "search": "Search",
+    "refresh": "Refresh",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "add": "Add",
+    "create": "Create",
+    "close": "Close",
+    "loading": "Loading…",
+    "noData": "No data yet",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "online": "Online",
+    "offline": "Offline",
+    "actions": "Actions",
+    "status": "Status",
+    "severity": "Severity",
+    "description": "Description",
+    "timestamp": "Timestamp",
+    "source": "Source",
+    "category": "Category",
+    "confirm": "Confirm",
+    "unlock": "Unlock",
+    "lock": "Lock"
+  },
+  "severity": {
+    "info": "Info",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "critical": "Critical"
+  },
+  "dashboard": {
+    "title": "Security Operations Dashboard",
+    "riskScore": "Network Risk Score",
+    "activeAlerts": "Active Alerts",
+    "networkHealth": "Network Health",
+    "suspiciousEvents": "Suspicious Events (24h)",
+    "topConnections": "Top Connections",
+    "trafficVolume": "Traffic Volume",
+    "deviceHealth": "Device Health",
+    "recentIncidents": "Recent Incidents",
+    "aiInsight": "AI Analyst Insight",
+    "cpuUsage": "CPU Usage",
+    "ramUsage": "Memory Usage",
+    "networkThroughput": "Network Throughput",
+    "devicesOnline": "Devices Online"
+  },
+  "map": {
+    "title": "Interactive Network Map",
+    "scanNetwork": "Scan Network",
+    "scanning": "Scanning your network…",
+    "legend": "Legend",
+    "router": "Router",
+    "computer": "Computer",
+    "server": "Server",
+    "mobile": "Mobile",
+    "iot": "IoT Device",
+    "printer": "Printer",
+    "unknown": "Unknown"
+  },
+  "devices": {
+    "title": "Devices",
+    "ip": "IP Address",
+    "mac": "MAC Address",
+    "hostname": "Hostname",
+    "vendor": "Vendor",
+    "type": "Type",
+    "riskScore": "Risk Score",
+    "openPorts": "Open Ports",
+    "lastSeen": "Last Seen",
+    "scanPorts": "Scan Ports",
+    "deepScan": "Deep Scan (1–1024)",
+    "quickScan": "Quick Scan (common ports)",
+    "gateway": "Gateway"
+  },
+  "timeline": {
+    "title": "Security Timeline",
+    "filterCategory": "Filter by category",
+    "allCategories": "All categories",
+    "search": "Search events…",
+    "correlate": "Correlate",
+    "correlationTitle": "Correlated Activity"
+  },
+  "flows": {
+    "title": "Packet / Flow Explorer",
+    "protocol": "Protocol",
+    "srcIp": "Source IP",
+    "srcPort": "Source Port",
+    "dstIp": "Destination IP",
+    "dstPort": "Destination Port",
+    "service": "Service",
+    "bytes": "Bytes",
+    "packets": "Packets",
+    "duration": "Duration",
+    "refreshFlows": "Sample Active Connections"
+  },
+  "logs": {
+    "title": "Log Intelligence Center",
+    "queryPlaceholder": "Search logs — supports plain text and regex-like terms",
+    "savedSearches": "Saved Searches",
+    "fieldFilters": "Field Filters"
+  },
+  "incidents": {
+    "title": "Incident Response Workspace",
+    "newIncident": "Create Incident",
+    "status": {
+      "open": "Open",
+      "investigating": "Investigating",
+      "contained": "Contained",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "addNote": "Add Note",
+    "notePlaceholder": "Add investigation notes…",
+    "linkedAlerts": "Linked Alerts",
+    "createFromAlert": "Convert to Incident"
+  },
+  "rules": {
+    "title": "Rules Studio",
+    "newRule": "New Rule",
+    "ruleName": "Rule Name",
+    "conditionType": "Condition Type",
+    "threshold": "Threshold",
+    "windowSeconds": "Window (seconds)",
+    "conditions": {
+      "port_scan": "Port Scan",
+      "conn_spike": "Connection Spike",
+      "dns_anomaly": "DNS Anomaly",
+      "auth_failure": "Authentication Failure",
+      "custom": "Custom"
+    }
+  },
+  "fim": {
+    "title": "File Integrity Monitor",
+    "addFile": "Watch a File",
+    "pathPlaceholder": "/path/to/important/file",
+    "lastHash": "Last Hash",
+    "lastChecked": "Last Checked",
+    "runScan": "Run Integrity Scan",
+    "changesFound": "changes detected"
+  },
+  "ai": {
+    "title": "AI Security Analyst",
+    "subtitle": "Tool-based, local-only. Reads your authorized data — never takes action on its own.",
+    "explainAlert": "Explain This Alert",
+    "probableCause": "Probable Cause",
+    "recommendations": "Recommended Next Steps",
+    "confidence": "Confidence",
+    "postureSummary": "Current Posture"
+  },
+  "vault": {
+    "title": "Secure Vault",
+    "setupPrompt": "Set a master passphrase to encrypt secrets stored locally.",
+    "unlockPrompt": "Enter your master passphrase to unlock the vault.",
+    "passphrase": "Master Passphrase",
+    "keyName": "Key Name",
+    "value": "Value",
+    "locked": "Vault is locked",
+    "unlocked": "Vault unlocked"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "themes": {
+      "dark": "Dark Premium",
+      "light": "Light",
+      "windows": "Windows 11 Default",
+      "red": "Crimson",
+      "blue": "Cyan Blue",
+      "amoled": "AMOLED"
+    },
+    "language": "Language",
+    "shortcuts": "Keyboard Shortcuts",
+    "notifications": "Notification Center",
+    "backup": "Configuration Backup",
+    "exportBackup": "Export Backup",
+    "importBackup": "Import Backup"
+  },
+  "commandPalette": {
+    "placeholder": "Type a command or search…"
+  }
+}

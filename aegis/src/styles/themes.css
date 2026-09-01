@@ -1,0 +1,164 @@
+:root {
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --font-sans: "Segoe UI Variable", "Segoe UI", -apple-system, BlinkMacSystemFont, "Vazirmatn",
+    "PingFang SC", "Microsoft YaHei", sans-serif;
+  --shadow-glow: 0 0 24px rgba(0, 229, 255, 0.18);
+  --transition-fast: 120ms ease;
+  --transition-med: 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* ---------------------------------------------------------------- */
+/* Dark Premium (default) — glassmorphism SOC console                */
+/* ---------------------------------------------------------------- */
+[data-theme="dark"] {
+  --bg-app: #0a0e17;
+  --bg-panel: rgba(20, 26, 38, 0.72);
+  --bg-panel-solid: #131924;
+  --bg-elevated: #1a2130;
+  --bg-hover: rgba(255, 255, 255, 0.05);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(0, 229, 255, 0.35);
+  --text-primary: #eef2f8;
+  --text-secondary: #93a1b8;
+  --text-muted: #5c6a82;
+  --accent: #00e5ff;
+  --accent-soft: rgba(0, 229, 255, 0.14);
+  --accent-2: #7b5cff;
+  --success: #33e39c;
+  --warning: #ffb547;
+  --danger: #ff5c73;
+  --info: #4fa8ff;
+  --backdrop-blur: blur(18px);
+}
+
+/* ---------------------------------------------------------------- */
+/* Light                                                              */
+/* ---------------------------------------------------------------- */
+[data-theme="light"] {
+  --bg-app: #f4f6fb;
+  --bg-panel: rgba(255, 255, 255, 0.85);
+  --bg-panel-solid: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-hover: rgba(15, 23, 42, 0.04);
+  --border-subtle: rgba(15, 23, 42, 0.08);
+  --border-strong: rgba(0, 141, 173, 0.35);
+  --text-primary: #131924;
+  --text-secondary: #4b5468;
+  --text-muted: #8890a0;
+  --accent: #008dad;
+  --accent-soft: rgba(0, 141, 173, 0.1);
+  --accent-2: #5b3fd6;
+  --success: #12a06b;
+  --warning: #b9720b;
+  --danger: #d7293f;
+  --info: #1a68c9;
+  --backdrop-blur: blur(12px);
+}
+
+/* ---------------------------------------------------------------- */
+/* Windows 11 Default — Fluent, Mica-like surfaces                   */
+/* ---------------------------------------------------------------- */
+[data-theme="windows"] {
+  --bg-app: #f3f3f3;
+  --bg-panel: rgba(255, 255, 255, 0.7);
+  --bg-panel-solid: #fbfbfb;
+  --bg-elevated: #ffffff;
+  --bg-hover: rgba(0, 0, 0, 0.04);
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --border-strong: rgba(0, 95, 184, 0.4);
+  --text-primary: #1a1a1a;
+  --text-secondary: #4d4d4d;
+  --text-muted: #797979;
+  --accent: #0067c0;
+  --accent-soft: rgba(0, 103, 192, 0.1);
+  --accent-2: #7a4fd6;
+  --success: #107c10;
+  --warning: #9d5d00;
+  --danger: #c42b1c;
+  --info: #0067c0;
+  --backdrop-blur: blur(24px);
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 8px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Crimson (Red)                                                     */
+/* ---------------------------------------------------------------- */
+[data-theme="red"] {
+  --bg-app: #120a0c;
+  --bg-panel: rgba(32, 16, 20, 0.75);
+  --bg-panel-solid: #1c0f12;
+  --bg-elevated: #26141a;
+  --bg-hover: rgba(255, 255, 255, 0.05);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 66, 84, 0.4);
+  --text-primary: #f7e9ea;
+  --text-secondary: #b98d92;
+  --text-muted: #7a5a5e;
+  --accent: #ff4254;
+  --accent-soft: rgba(255, 66, 84, 0.15);
+  --accent-2: #ff8a4c;
+  --success: #33e39c;
+  --warning: #ffb547;
+  --danger: #ff2c44;
+  --info: #ff7a91;
+  --backdrop-blur: blur(18px);
+}
+
+/* ---------------------------------------------------------------- */
+/* Cyan Blue                                                          */
+/* ---------------------------------------------------------------- */
+[data-theme="blue"] {
+  --bg-app: #060d17;
+  --bg-panel: rgba(12, 24, 40, 0.75);
+  --bg-panel-solid: #0d1826;
+  --bg-elevated: #122033;
+  --bg-hover: rgba(255, 255, 255, 0.05);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(37, 150, 255, 0.4);
+  --text-primary: #e8f2ff;
+  --text-secondary: #8fabc9;
+  --text-muted: #56728f;
+  --accent: #2596ff;
+  --accent-soft: rgba(37, 150, 255, 0.15);
+  --accent-2: #35d1ff;
+  --success: #2fe0a8;
+  --warning: #ffc247;
+  --danger: #ff5c73;
+  --info: #2596ff;
+  --backdrop-blur: blur(18px);
+}
+
+/* ---------------------------------------------------------------- */
+/* AMOLED — true black                                                */
+/* ---------------------------------------------------------------- */
+[data-theme="amoled"] {
+  --bg-app: #000000;
+  --bg-panel: rgba(10, 10, 12, 0.85);
+  --bg-panel-solid: #050505;
+  --bg-elevated: #0d0d0f;
+  --bg-hover: rgba(255, 255, 255, 0.06);
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(0, 229, 255, 0.35);
+  --text-primary: #f4f7fb;
+  --text-secondary: #8b96a8;
+  --text-muted: #4d5666;
+  --accent: #00e5ff;
+  --accent-soft: rgba(0, 229, 255, 0.14);
+  --accent-2: #7b5cff;
+  --success: #33e39c;
+  --warning: #ffb547;
+  --danger: #ff5c73;
+  --info: #4fa8ff;
+  --backdrop-blur: blur(10px);
+}
+
+/* Severity color helpers, theme-independent */
+.sev-info { color: var(--info); }
+.sev-low { color: var(--success); }
+.sev-medium { color: var(--warning); }
+.sev-high { color: #ff8a3d; }
+.sev-critical { color: var(--danger); }
